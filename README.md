@@ -7,8 +7,7 @@ Projeto feito para verificar valores de criptomoedas, utilizando tecnologias com
 react-router-dom
 
 ## Passos para inicializar projeto
-1. Git clone no projeto
-  1.2. git clone https://github.com/hikaroeduardo/criptomoedas.git
+1. git clone https://github.com/hikaroeduardo/criptomoedas.git
 
 2. npm install
 
