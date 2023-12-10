@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Verificar valores de criptomoedas em tempo real - ReactJs + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto feito para verificar valores de criptomoedas, utilizando tecnologias como ReactJs, TypeScript e react-router-dom
 
-Currently, two official plugins are available:
+## Libs instaladas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+react-router-dom
 
-## Expanding the ESLint configuration
+## Passos para inicializar projeto
+1. Git clone no projeto
+  1.2. git clone https://github.com/hikaroeduardo/criptomoedas.git
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. npm install
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. npm run dev
