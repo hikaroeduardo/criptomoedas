@@ -1,6 +1,6 @@
 # Verificar valores de criptomoedas em tempo real - ReactJs + TypeScript
 
-Projeto feito para verificar valores de criptomoedas, utilizando tecnologias como ReactJs, TypeScript e react-router-dom
+Projeto feito para verificar valores de criptomoedas, utilizando tecnologias como ReactJs, TypeScript, react-router-dom e css-modules para estilização
 
 ## Libs instaladas
 
