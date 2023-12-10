@@ -1,0 +1,16 @@
+.container {
+    height: 120px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo span {
+    color: #fff;
+}
+
+.logo {
+    color: #2B9BFF;
+    font-size: 3.5rem;
+}
