@@ -21,3 +21,9 @@ button {
 a {
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}

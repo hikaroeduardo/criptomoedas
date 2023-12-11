@@ -1,0 +1,139 @@
+.container {
+  margin: 0 1rem;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.form input {
+  width: 100%;
+  padding: 0 0.5rem;
+  height: 44px;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0;
+}
+
+.form button {
+  background: transparent;
+  border: 0;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+
+.tr {
+  background-color: #1d1c20;
+}
+
+td:first-child,
+td:first-child {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+td:last-child,
+td:last-child {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+table th {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.tdLabel span {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+.tdLabel,
+.tdProfit,
+.tdLoss {
+  color: #bbb;
+}
+
+.tdProfit {
+  color: #12f98a;
+}
+
+.tdLoss {
+  color: #f91257;
+}
+
+.link {
+  color: #fff;
+  transition: 0.5s ease-out;
+}
+
+.link:hover {
+  color: #30beff;
+}
+
+table td,
+table td {
+  padding: 14px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table thead {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    margin: -1;
+    width: 1px;
+  }
+
+  .tr {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    margin-bottom: 0.875rem;
+  }
+
+  table td {
+    border-bottom: 1px solid rgba(221, 221, 221, 0.16);
+    display: block;
+    font-size: 1rem;
+    text-align: right;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  td:first-child,
+  td:first-child {
+    border-radius: 0;
+  }
+
+  td:last-child,
+  td:last-child {
+    border-radius: 0;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
