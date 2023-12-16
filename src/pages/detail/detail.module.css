@@ -1,0 +1,35 @@
+.container {
+  padding: 0 0.875rem;
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 0.875rem;
+}
+
+.content {
+  max-width: 420px;
+  background-color: #0f0f0f;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.content p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.content p:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.tdProfit {
+  color: #12f98a;
+}
+
+.tdLoss {
+  color: #f91257;
+}
